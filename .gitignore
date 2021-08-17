@@ -1,0 +1,27 @@
+# User-specific files
+*.suo
+*.user
+.vs/
+*.pubxml
+*.babel
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+Scripts/*.nupkg
+Scripts/*.zip
+Scripts/*.gz
+
+# Dependencies
+packages/
+node_modules/
+
+# Documentation XML documents
+Lacuna.Election.*.xml
+
+# Generated election keys
+Scripts/KeyGen/*.pem
+
+AzureBlobDowload/appsettings.Development.json
